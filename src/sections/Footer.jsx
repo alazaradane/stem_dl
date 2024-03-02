@@ -5,17 +5,17 @@ import { copyrightSign } from '../assets/icons'
 
 const Footer = () => {
   return (
-    <footer className=' max-container flex flex-col '>
+    <footer className=' max-container flex flex-col p-6 '>
       <div className=' flex justify-between items-start gap-20 flex-wrap max-lg:flex-row '>
         <div className=' flex items-start flex-col'>
           <a href="/">
-            <img src={footerLogo} alt="Footer Logo" width={150} height={46} />
+            <img src={footerLogo} alt="Footer Logo" width={300} height={96} />
           </a>
-          <p className=' mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get ready to revolutionize your business with our AI SaaS platform. Harness the power of artificial 
-            intelligence to drive innovation.
+          <p className=' mt-3 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
+           Explore our STEM Digital Library for curated resources in science, technology, engineering, and mathematics. 
+           Start your journey of discovery today."
           </p>
-          <div className=' flex items-center gap-5 mt-8 cursor-pointer'>
+          <div className=' flex items-center gap-5 mt-10 cursor-pointer'>
             {socialMedia.map((icon)=>(
               <div className=' flex items-center justify-center w-12 h-12 bg-white rounded-full hover:bg-coral-blue'>
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />

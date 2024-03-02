@@ -77,11 +77,11 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Face Recognition", link: "/" },
-            { name: "Voice Analysis", link: "/" },
-            { name: "Emotion Intelgent", link: "/" },
-            { name: "Bussniess Intelgent", link: "/" },
-            { name: "Predication System", link: "/" },
+            { name: "STEM Resources", link: "/" },
+            { name: "Study Guides", link: "/" },
+            { name: "Top-Tier Books", link: "/" },
+            { name: "Popular Reads Collectio", link: "/" },
+            { name: "Practice Sets and Worksheets", link: "/" },
             { name: "Others", link: "/" },
         ],
     },
@@ -98,7 +98,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@smartbrain.com", link: "mailto:customer@smartbrain.com" },
+            { name: "customer@stemdl369.com", link: "mailto:customer@stemdl369.com" },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },

@@ -5,7 +5,7 @@ import hero1 from './hero1.png'
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
 
-import footerLogo from './headerLogo.png'
+import footerLogo from './Flogo.png'
 import headerLogo from './LOGO.png'
 
 

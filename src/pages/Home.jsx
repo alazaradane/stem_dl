@@ -4,7 +4,7 @@ import { CustomerReviews, Hero, Nav, PopularProduct, Services, SpecialOffer, Sub
 
 const Home = () => {
   return (
-    <main className='relative bg-black text-white'>
+    <main className='relativ'>
         <Nav/>
       <section className='xl:padding-1 wide:padding-r padding-b'>
         <Hero/>

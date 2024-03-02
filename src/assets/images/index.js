@@ -1,13 +1,12 @@
 
-import hero1 from './hero1.jpeg'
-import hero2 from './hero2.jpeg'
-import hero3 from './hero3.jpeg'
+import hero1 from './hero1.png'
+
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
 
 import footerLogo from './headerLogo.png'
-import headerLogo from './headerLogo.png'
+import headerLogo from './LOGO.png'
 
 
 
@@ -30,9 +29,7 @@ import tiger from './greek.jpeg'
 
 export {
 
-    hero1,
-    hero2,
-    hero3,   
+    hero1, 
 
     customer1,
     customer2,

@@ -24,7 +24,7 @@ import security from './security.png'
 import help from './help-desk.png'
 import favorites from './favorites.png'
 
-import tiger from './greek.jpeg'
+import tiger from './Offer.svg'
 
 
 export {

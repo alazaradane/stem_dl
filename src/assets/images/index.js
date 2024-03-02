@@ -15,7 +15,7 @@ import voice from '../images/Popular2.jpg'
 import emotion from '../images/popular3.jpeg'
 import bussiness from '../images/popluar4.jpg'
 
-import superImage from '../images/Super.jpeg';
+import superImage from '../images/SuperQ.jpg';
 
 
 

@@ -10,21 +10,21 @@ const SuperQuality = () => {
       <div className=' flex flex-col w-1/2 justify-start mt-12 max-sm:w-full max-md:justify-center max-md:items-center '>
         <h1 className=' font-palanquin text-4xl font-bold mb-5'>We Provide You <span className=' text-coral-blue'>Super Quality</span> AI Services</h1>
         <p className=' mb-6 font-montserrat text-slate-gray'>
-          In our SuperQuality section, we integrate cutting-edge AI technology to deliver unparalleled precision and efficiency. 
-          Our solutions prioritize quality, offering businesses actionable insights and empowering them to stay ahead in today's competitive landscape. 
-          With a focus on innovation and customer satisfaction, we set the standard for excellence in AI.
+          Dive into our Super Quality page, where meticulously curated books, practice sets, and 
+          worksheets await. Elevate your learning experience with top-tier resources 
+          designed to inspire and empower your journey.
         </p>
         <p className=' font-montserrat text-slate-gray'>
-          Harness the power of AI for unmatched precision and efficiency in our SuperQuality section. 
-          Our solutions deliver actionable insights, empowering businesses to excel in a competitive world. Experience innovation and 
-          excellence with our customer-focused approach to AI technology.
+          Experience the difference with our SuperQuality section, driven by AI for precision and efficiency. 
+          Our customer-centric approach delivers actionable insights, ensuring success in a competitive world. 
+          Choose us for innovation and excellence that exceeds expectations
         </p> 
         <div className=' mt-6 flex'>
          <Button label={`Show details`}/>
         </div>     
           
       </div>
-      <div className=' ml-16 max-sm: flex items-center justify-center mt-6'>
+      <div className=' ml-16 max-sm: flex items-center justify-center mt-6 w-1/2'>
         <img src={superImage} alt={superImage} className=' object-contain rounded-xl' />
       </div>
 

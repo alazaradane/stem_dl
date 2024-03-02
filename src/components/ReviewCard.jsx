@@ -7,7 +7,7 @@ const ReviewCard = ({imgURL, customerName, feedback, rating}) => {
         <img 
             src={imgURL} alt='customer image'
             className=' rounded-full object-cover w-[120px] h-[120px]' />
-        <p className=' m-6 info-text text-center max-w-sm'>{feedback}</p>
+        <p className=' m-6 info-text text-center max-w-sm text-lg font-palanquin text-gray-700'>{feedback}</p>
         <div className=' flex justify-center items-center gap-2.5'>
             <img 
                 src={star}

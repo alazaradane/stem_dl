@@ -10,7 +10,7 @@ const SpecialOffer = () => {
         <img src={tiger}  className=' w-[1500px] h-[650px] rounded-xl'/>
       </div>
       <div className=' flex flex-col  justify-start mt-12 max-sm:w-full w-1/2 '>
-        <h1 className=' font-palanquin text-4xl font-bold mb-5'><span className=' text-coral-red'>Special</span> Offer</h1>
+        <h1 className=' font-palanquin text-4xl font-bold mb-5'><span className=' text-coral-blue'>Special</span> Offer</h1>
         <p className=' mb-6 font-montserrat text-slate-gray mr-3'>          
           Unlock exclusive savings in our Special Offers section, where limited-time deals await. 
           Dive into discounted books, practice sets, and worksheets tailored to boost 

@@ -6,7 +6,7 @@ const SuperQuality = () => {
   return (
     <section
       id='about-us' 
-      className=' flex flex-1 flex-row max-sm:flex-col max-lg:flex-col w-full max-container'>
+      className=' flex flex-1 flex-row max-sm:flex-col max-lg:flex-col w-full max-container mt-5 py-4 px-6'>
       <div className=' flex flex-col w-1/2 justify-start mt-12 max-sm:w-full max-md:justify-center max-md:items-center '>
         <h1 className=' font-palanquin text-4xl font-bold mb-5'>We Provide You <span className=' text-coral-blue'>Super Quality</span> AI Services</h1>
         <p className=' mb-6 font-montserrat text-slate-gray'>

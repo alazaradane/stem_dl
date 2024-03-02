@@ -10,10 +10,10 @@ import headerLogo from './LOGO.png'
 
 
 
-import face from '../images/FaceS1y.jpeg'
-import voice from '../images/VoiceS2.jpeg'
-import emotion from '../images/EmotionS3.jpeg'
-import bussiness from '../images/BussinessS4.jpeg'
+import face from '../images/Popular1.jpeg'
+import voice from '../images/Popular2.jpg'
+import emotion from '../images/popular3.jpeg'
+import bussiness from '../images/popluar4.jpg'
 
 import superImage from '../images/Super.jpeg';
 

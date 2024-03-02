@@ -11,31 +11,31 @@ export const navLinks = [
 
 
 export const statistics = [
-    { value: '369', label: 'Brands' },
-    { value: '500+', label: 'Products' },
-    { value: '150k+', label: 'Customers' },
+    { value: '32', label: 'Genres' },
+    { value: '500+', label: 'Books' },
+    { value: '150k+', label: 'Members' },
 ];
 
 export const products = [
     {
         imgURL: face,
-        name: "Face Recognition ",
-        detail:`Elevate security with our advanced face recognition.`,
+        name: "Infinite Powers ",
+        detail:`Recounts how calculus tantalized and thrilled its inventors`,
     },
     {
         imgURL: voice,
-        name: "Voice Analysis",
-        detail: `Gain deeper insights with our advanced analysis technology.`,
+        name: "A Brief History of Time",
+        detail: `All the way from the beginning of the universe to its end`,
     },
     {
         imgURL: emotion,
-        name: "Emotion Recognition",
-        detail: `Uncover hidden emotions with our emotion recognition.`,
+        name: "The God Equation",
+        detail: `The nature of reality, how the laws of physics apply to the universe `,
     },
     {
         imgURL: bussiness,
-        name: "Businesses Analysis",
-        detail: `Drive informed decisions with our business analysis solutions.`,
+        name: "The Elegant Universe",
+        detail: `The universe that most people do not know, from superstring theory to additional dimensions.`,
     },
 ];
 

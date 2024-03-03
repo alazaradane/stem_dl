@@ -17,7 +17,7 @@ const Hero = () => {
         <h1 className='mt-10 font-palanquin text-[75px] max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
           <span className=' xl:whitespace-nowrap relative z-10 pr-10  '>The New Arrival</span>
           <br />
-          <span className=' inline-block text-coral-blue mt-3'>Smart</span> Brain
+          <span className=' inline-block text-coral-blue mt-3'>STEM</span> Library
         </h1>
         <p className=' font-montserrat text-slate-gray text-lg leading-8 mb-14 mt-6 sm:max-w-sm'>
           Embark on a journey of knowledge and innovation with our STEM club's digital library, where curiosity meets boundless learning opportunities.

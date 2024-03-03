@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Button = ({label, iconURL, iconAlt, backgroundColor, borderColor, textColor, fullwidth}) => {
+const Button = ({label, iconURL, iconAlt, backgroundColor, borderColor, textColor, fullwidth,pop}) => {
   return (
     <button className={` flex justify-center items-center px-7 py-4 gap-2
        text-lg font-montserrat leading-none
       ${backgroundColor ? ` ${backgroundColor} ${borderColor} ${textColor}`: ' bg-coral-blue text-white border-coral-red'} rounded-full 
-      ${fullwidth && 'w-full'} ` }>
+      ${fullwidth && 'w-full'}
+      ${pop && ' hover:text-coral-blue'} ` 
+      }>
         {label}
         {iconURL && 
         <img 

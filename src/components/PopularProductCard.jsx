@@ -1,5 +1,6 @@
 import React from 'react'
 import { star } from '../assets/icons'
+import Button from './Button'
 
 const PopularProductCard = ({imgURL, name, detail}) => {
   return (
@@ -11,6 +12,9 @@ const PopularProductCard = ({imgURL, name, detail}) => {
       </div>
         <h3 className=' mt-2 text-2xl leading-normal font-semibold font-palanquin text-coral-blue '>{name}</h3>
         <p className=' mt-2 font-montserrat text-lg text-slate-700  leading-normal  '>{detail}</p>
+        <div className=' flex items-center justify-start mr-4 '>
+          <Button label='Learn more...' backgroundColor='bg-white' borderColor='border-slate-gray' textColor='text-slate-gray' pop/>
+        </div>
     </div>
   )
 }

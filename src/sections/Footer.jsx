@@ -13,7 +13,7 @@ const Footer = () => {
           </a>
           <p className=' mt-3 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
            Explore our STEM Digital Library for curated resources in science, technology, engineering, and mathematics. 
-           Start your journey of discovery today."
+           Start your journey of discovery today.
           </p>
           <div className=' flex items-center gap-5 mt-10 cursor-pointer'>
             {socialMedia.map((icon)=>(

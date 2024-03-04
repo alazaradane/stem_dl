@@ -18,7 +18,7 @@ const SpecialOffer = () => {
           Don't miss out on these extraordinary offers elevate your studies today!
         </p>
         <p className=' font-montserrat text-slate-gray mr-3'>
-          ind exceptional deals that fit your needs and budget. Don't wait 
+          exceptional deals that fit your needs and budget. Don't wait 
           – seize the opportunity to elevate your learning experience today!
         </p> 
         <div className=' mt-6 flex flex-wrap gap-4'>

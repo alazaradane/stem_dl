@@ -80,7 +80,7 @@ export const footerLinks = [
             { name: "STEM Resources", link: "/" },
             { name: "Study Guides", link: "/" },
             { name: "Top-Tier Books", link: "/" },
-            { name: "Popular Reads Collectio", link: "/" },
+            { name: "Popular Reads Collection", link: "/" },
             { name: "Practice Sets and Worksheets", link: "/" },
             { name: "Others", link: "/" },
         ],

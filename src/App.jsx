@@ -1,21 +1,41 @@
-import React from 'react'
+import React, { Component } from 'react'
+
+
+
+import SignIn from './pages/SignIn'
 import Home from './pages/Home'
-import SignUp from './pages/SignUp'
-import { Route, Routes } from 'react-router-dom'
 
+class App extends Component {
+  
+    constructor() {
+      super()
+      this.state ={
+        route:"home"
+      }
+    }
+    
+    onRouteChange = (route)=>{
+      this.setState({route: route})
+    }
 
-const App = () => {
-  return (
-    <>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/sign-up' element={<SignUp/>}/>
-    </Routes>
+    render() {
+      return(
+        <div>
 
-      {/* <Home/> */}
-    </>
+           
+           {this.state.route==='home' ?
+            <Home onRouteChange={this.onRouteChange}/>
+            :
+            <SignIn onRouteChange={this.onRouteChange}/>
+            
+          }
+        </div>
+    )
+    }
+    
+    
 
-  )
 }
+
 
 export default App

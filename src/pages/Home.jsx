@@ -2,7 +2,7 @@ import React from 'react'
 
 import { CustomerReviews, Hero, Nav, PopularProduct, Services, SpecialOffer, Subscribe, SuperQuality, Footer } from '../sections/index';
 
-const Home = () => {
+const Home = ({onRouteChange}) => {
   return (
     <main className='relativ'>
         <Nav/>

@@ -5,7 +5,7 @@ import { statistics } from '../constants'
 
 import HeroCard from '../components/HeroCard'
 
-const Hero = () => {
+const Hero = ({onRouteChange}) => {
   
   return (
     <section
@@ -22,7 +22,7 @@ const Hero = () => {
         <p className=' font-montserrat text-slate-gray text-lg leading-8 mb-14 mt-6 sm:max-w-sm'>
           Embark on a journey of knowledge and innovation with our STEM club's digital library, where curiosity meets boundless learning opportunities.
         </p>
-        <a href="/sign-up"><Button label="Get Started" iconURL={arrowRight} iconAlt={'Right Arrow Icon'}/></a>
+        <Button label="Get Started" iconURL={arrowRight} iconAlt={'Right Arrow Icon'} onClick={()=>onRouteChange('#signin')}/>
 
         <div  className=' flex justify-start items-start gap-16 mt-20 flex-wrap w-full '>
           {statistics.map((stat)=>

@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 
 import SignIn from './pages/SignIn'
 import Home from './pages/Home'
+import BookPage from './pages/BookPage'
 
 class App extends Component {
   
@@ -19,23 +20,21 @@ class App extends Component {
     }
 
     render() {
-      return(
-        <div>
-
-           
-           {this.state.route==='home' ?
-            <Home onRouteChange={this.onRouteChange}/>
-            :
-            <SignIn onRouteChange={this.onRouteChange}/>
-            
-          }
-        </div>
-    )
-    }
+        if (this.state.route === 'home') {
+          return <Home onRouteChange={this.onRouteChange} />;
+        }
+        if(this.state.route === 'signin'){
+          return <SignIn onRouteChange={this.onRouteChange}/>
+        }
+        
+      }
+        
     
-    
-
 }
+    
+    
+
+
 
 
 export default App

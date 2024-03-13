@@ -1,18 +1,19 @@
 import React from 'react'
 
 import SignForm from '../components/SignForm'
+import { headerLogo } from '../assets/images'
 
 const SignIn = ({onRouteChange}) => {
   return (
     <section
         id='#signin'
-        className=' flex  bg-black text-white max-sm:flex-col-reverse max-md:flex-col-reverse'
+        className=' flex max-sm:flex-col-reverse max-md:flex-col-reverse'
     >
         <div>
-          <img src={HeadSet} alt="HeadSET" height=' h-screen' className=' max-sm:hidden max-md:hidden ' />  
+          <img src={headerLogo} alt="Image" height=' h-screen' className=' max-sm:hidden max-md:hidden ' />  
         </div>
-        <div className=' flex   mx-auto h-screen'>
-            <SignForm email password onRouteChange={onRouteChange('#main')}/>
+        <div className=' flex mx-auto h-screen'>
+            <SignForm email password onRouteChange={()=>onRouteChange('#book')}/>
         </div>
     </section>
   )

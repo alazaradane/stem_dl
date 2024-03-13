@@ -7,7 +7,7 @@ const Home = ({onRouteChange}) => {
     <main className='relativ'>
         <Nav/>
       <section className='xl:padding-1 wide:padding-r padding-b'>
-        <Hero/>
+        <Hero onRouteChange={onRouteChange}/>
       </section>
       <section className='padding'>
         <PopularProduct/>

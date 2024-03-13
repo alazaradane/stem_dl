@@ -13,11 +13,11 @@ const SignForm = ({email, password,onRouteChange}) => {
                 </div>
                 <div className=' my-6'>
                     <p className=' text-xl font-montserrat my-3 '>Email</p>
-                    <input type="email" placeholder='Email' className=' p-3 bg-black border border-3 border-coral-blue placeholder:text-white-400 outline-none' />
+                    <input type="email" placeholder='Email' className=' p-3  border border-6 border-coral-blue placeholder: outline-none' />
                 </div>
                 <div>
                     <p className=' text-xl font-montserrat my-3 '>Password</p>
-                    <input type="password" placeholder='Password' className=' p-3 bg-black border border-3 border-coral-blue placeholder:text-white-400 outline-none' />
+                    <input type="password" placeholder='Password' className=' p-3  border border-6 border-coral-blue placeholder: outline-none' />
                 </div>
                 <div className=' mt-3 flex flex-col'>
                     <Button label={'Sign In'} signup onClick={onRouteChange}/>

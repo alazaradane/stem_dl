@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import { headerLogo } from '../assets/images'
+import { Link } from 'react-router-dom'
 
 const SignForm = ({email, password,onRouteChange}) => {
   return (
@@ -20,7 +21,9 @@ const SignForm = ({email, password,onRouteChange}) => {
                     <input type="password" placeholder='Password' className=' p-3  border border-6 border-coral-blue placeholder: outline-none' />
                 </div>
                 <div className=' mt-3 flex flex-col'>
-                    <Button label={'Sign In'} signup onClick={onRouteChange}/>
+                    <Link to={'signin/bookpage'}>                       
+                        <Button label={'Sign In'} signup onClick={onRouteChange}/>
+                    </Link>
                     <a href="signup" className=' mt-3 text-center hover:text-coral-blue'>Create Account</a>
                 </div>
             </div>:"NO Email"  

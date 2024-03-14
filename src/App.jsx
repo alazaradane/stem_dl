@@ -5,6 +5,7 @@ import React, { Component } from 'react'
 import SignIn from './pages/SignIn'
 import Home from './pages/Home'
 import BookPage from './pages/BookPage'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 class App extends Component {
   
@@ -20,16 +21,17 @@ class App extends Component {
     }
 
     render() {
-        if (this.state.route === 'home') {
-          return <Home onRouteChange={this.onRouteChange} />;
-        }
-        if(this.state.route === 'signin'){
-          return <SignIn onRouteChange={this.onRouteChange}/>
-        }
+      return(
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/signin' element={<SignIn/>}/>
+            <Route path='/signin/bookpage' element={<BookPage/>}/>
+          </Routes>
+        </BrowserRouter>
+      )   
         
-      }
-        
-    
+    }
 }
     
     

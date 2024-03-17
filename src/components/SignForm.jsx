@@ -21,7 +21,7 @@ const SignForm = ({email, password,onRouteChange}) => {
                     <input type="password" placeholder='Password' className=' p-3  border border-6 border-coral-blue placeholder: outline-none' />
                 </div>
                 <div className=' mt-3 flex flex-col'>
-                    <Link to={'signin/bookpage'}>                       
+                    <Link to={'/bookpage'}>                       
                         <Button label={'Sign In'} signup onClick={onRouteChange}/>
                     </Link>
                     <a href="signup" className=' mt-3 text-center hover:text-coral-blue'>Create Account</a>

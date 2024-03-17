@@ -1,7 +1,7 @@
 import React from 'react'
 
 import SignForm from '../components/SignForm'
-import { headerLogo } from '../assets/images'
+import { headerLogo, meet } from '../assets/images'
 
 const SignIn = ({onRouteChange}) => {
   return (
@@ -10,7 +10,7 @@ const SignIn = ({onRouteChange}) => {
         className=' flex max-sm:flex-col-reverse max-md:flex-col-reverse'
     >
         <div>
-          <img src={headerLogo} alt="Image" height=' h-screen' className=' max-sm:hidden max-md:hidden ' />  
+          <img src={meet} alt="Image" height=' h-screen' className=' max-sm:hidden max-md:hidden ' />  
         </div>
         <div className=' flex mx-auto h-screen'>
             <SignForm email password onRouteChange={()=>onRouteChange('#book')}/>

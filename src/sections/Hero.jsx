@@ -16,7 +16,7 @@ const Hero = ({onRouteChange}) => {
       <div className='relative flex w-2/5 flex-col justify-center items-start  max-xl:padding-x  pt-28 max-sm:w-full max-lg:w-full max-xl:w-full mb-6'>
         <p className=' text-xl font-montserrat text-coral-blue ml-6 mt-10'>Where Ideas Take Flight Discover Our STEM Library</p>
         <h1 className='mt-10 font-palanquin text-[75px] max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
-          <span className=' xl:whitespace-nowrap relative z-10 pr-10  '>The New Arrival</span>
+          <span className=' xl:whitespace-nowrap relative z-10 pr-10  '>STEM First</span>
           <br />
           <span className=' inline-block text-coral-blue mt-3'>STEM</span> Library
         </h1>

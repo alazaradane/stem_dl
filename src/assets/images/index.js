@@ -25,11 +25,13 @@ import help from './help-desk.png'
 import favorites from './favorites.png'
 
 import tiger from './Offer.svg'
+import meet from '../images/meet.svg'
 
 
 export {
 
     hero1, 
+    meet,
 
     customer1,
     customer2,
